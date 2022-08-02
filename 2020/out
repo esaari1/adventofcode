@@ -1,0 +1,310 @@
+Reading input
+Processing
+46
+1 6 {'fish'} {'fish'} 22
+1 10 {'fish'} {'fish', 'wheat'} 10
+1 11 {'fish'} {'sesame', 'fish', 'eggs'} 6
+1 12 {'fish'} {'fish', 'shellfish', 'peanuts'} 5
+1 15 {'fish'} {'fish', 'eggs', 'peanuts'} 5
+1 18 {'fish'} {'sesame', 'fish', 'shellfish'} 4
+1 19 {'fish'} {'fish', 'nuts'} 3
+1 27 {'fish'} {'fish', 'eggs'} 2
+1 28 {'fish'} {'fish', 'eggs', 'soy'} 2
+1 30 {'fish'} {'sesame', 'fish', 'nuts'} 2
+1 32 {'fish'} {'fish', 'soy'} 2
+1 36 {'fish'} {'fish', 'nuts', 'shellfish'} 2
+1 41 {'fish'} {'fish', 'eggs', 'peanuts'} 2
+1 46 {'fish'} {'fish', 'eggs', 'shellfish'} 2
+3 2 {'soy'} {'peanuts', 'soy'} 25
+3 5 {'soy'} {'sesame', 'shellfish', 'soy'} 8
+3 7 {'soy'} {'soy'} 5
+3 9 {'soy'} {'peanuts', 'soy'} 4
+3 22 {'soy'} {'soy'} 3
+3 24 {'soy'} {'soy'} 2
+3 26 {'soy'} {'nuts', 'eggs', 'soy'} 2
+3 28 {'soy'} {'fish', 'eggs', 'soy'} 2
+3 29 {'soy'} {'peanuts', 'soy', 'wheat'} 2
+3 32 {'soy'} {'fish', 'soy'} 2
+3 34 {'soy'} {'sesame', 'peanuts', 'soy'} 2
+6 1 {'fish'} {'fish'} 22
+6 10 {'fish'} {'fish', 'wheat'} 10
+6 11 {'fish'} {'sesame', 'fish', 'eggs'} 6
+6 12 {'fish'} {'fish', 'shellfish', 'peanuts'} 5
+6 15 {'fish'} {'fish', 'eggs', 'peanuts'} 5
+6 18 {'fish'} {'sesame', 'fish', 'shellfish'} 4
+6 19 {'fish'} {'fish', 'nuts'} 3
+6 27 {'fish'} {'fish', 'eggs'} 2
+6 28 {'fish'} {'fish', 'eggs', 'soy'} 2
+6 30 {'fish'} {'sesame', 'fish', 'nuts'} 2
+6 32 {'fish'} {'fish', 'soy'} 2
+6 36 {'fish'} {'fish', 'nuts', 'shellfish'} 2
+6 41 {'fish'} {'fish', 'eggs', 'peanuts'} 2
+6 46 {'fish'} {'fish', 'eggs', 'shellfish'} 2
+7 2 {'soy'} {'peanuts', 'soy'} 23
+7 3 {'soy'} {'soy'} 10
+7 5 {'soy'} {'sesame', 'shellfish', 'soy'} 5
+7 9 {'soy'} {'peanuts', 'soy'} 4
+7 22 {'soy'} {'soy'} 3
+7 24 {'soy'} {'soy'} 2
+7 26 {'soy'} {'nuts', 'eggs', 'soy'} 2
+7 28 {'soy'} {'fish', 'eggs', 'soy'} 2
+7 29 {'soy'} {'peanuts', 'soy', 'wheat'} 2
+7 32 {'soy'} {'fish', 'soy'} 2
+7 34 {'soy'} {'sesame', 'peanuts', 'soy'} 2
+16 5 {'shellfish'} {'sesame', 'shellfish', 'soy'} 21
+16 12 {'shellfish'} {'fish', 'shellfish', 'peanuts'} 11
+16 18 {'shellfish'} {'sesame', 'fish', 'shellfish'} 6
+16 31 {'shellfish'} {'eggs', 'shellfish'} 4
+16 36 {'shellfish'} {'fish', 'nuts', 'shellfish'} 4
+16 37 {'shellfish'} {'shellfish', 'peanuts', 'wheat'} 4
+16 38 {'shellfish'} {'shellfish'} 4
+16 43 {'shellfish'} {'shellfish', 'peanuts'} 3
+16 44 {'shellfish'} {'peanuts', 'shellfish'} 2
+16 45 {'shellfish'} {'sesame', 'shellfish'} 2
+16 46 {'shellfish'} {'fish', 'eggs', 'shellfish'} 2
+22 2 {'soy'} {'peanuts', 'soy'} 18
+22 3 {'soy'} {'soy'} 8
+22 5 {'soy'} {'sesame', 'shellfish', 'soy'} 4
+22 7 {'soy'} {'soy'} 3
+22 9 {'soy'} {'peanuts', 'soy'} 3
+22 24 {'soy'} {'soy'} 2
+22 26 {'soy'} {'nuts', 'eggs', 'soy'} 2
+22 28 {'soy'} {'fish', 'eggs', 'soy'} 2
+22 29 {'soy'} {'peanuts', 'soy', 'wheat'} 2
+22 32 {'soy'} {'fish', 'soy'} 2
+22 34 {'soy'} {'sesame', 'peanuts', 'soy'} 2
+23 2 {'peanuts'} {'peanuts', 'soy'} 23
+23 4 {'peanuts'} {'nuts', 'eggs', 'peanuts'} 11
+23 9 {'peanuts'} {'peanuts', 'soy'} 8
+23 12 {'peanuts'} {'fish', 'shellfish', 'peanuts'} 6
+23 15 {'peanuts'} {'fish', 'eggs', 'peanuts'} 5
+23 25 {'peanuts'} {'peanuts'} 5
+23 29 {'peanuts'} {'peanuts', 'soy', 'wheat'} 4
+23 33 {'peanuts'} {'sesame', 'peanuts'} 3
+23 34 {'peanuts'} {'sesame', 'peanuts', 'soy'} 3
+23 37 {'peanuts'} {'shellfish', 'peanuts', 'wheat'} 2
+23 41 {'peanuts'} {'fish', 'eggs', 'peanuts'} 2
+23 42 {'peanuts'} {'nuts', 'peanuts'} 2
+23 43 {'peanuts'} {'shellfish', 'peanuts'} 1
+REMOVE 1
+REMOVE  sjcvsr peanuts
+24 2 {'soy'} {'soy'} 24
+24 3 {'soy'} {'soy'} 8
+24 5 {'soy'} {'sesame', 'shellfish', 'soy'} 3
+24 7 {'soy'} {'soy'} 3
+24 9 {'soy'} {'soy'} 2
+24 22 {'soy'} {'soy'} 2
+24 26 {'soy'} {'nuts', 'eggs', 'soy'} 2
+24 28 {'soy'} {'fish', 'eggs', 'soy'} 2
+24 29 {'soy'} {'soy', 'wheat'} 2
+24 32 {'soy'} {'fish', 'soy'} 2
+24 34 {'soy'} {'sesame', 'soy'} 2
+33 5 {'sesame'} {'sesame', 'shellfish', 'soy'} 17
+33 8 {'sesame'} {'sesame', 'nuts'} 6
+33 11 {'sesame'} {'sesame', 'fish', 'eggs'} 3
+33 13 {'sesame'} {'sesame', 'eggs'} 3
+33 18 {'sesame'} {'sesame', 'fish', 'shellfish'} 3
+33 30 {'sesame'} {'sesame', 'fish', 'nuts'} 3
+33 34 {'sesame'} {'sesame', 'soy'} 3
+33 39 {'sesame'} {'sesame'} 3
+33 40 {'sesame'} {'sesame', 'nuts'} 3
+33 45 {'sesame'} {'sesame', 'shellfish'} 3
+35 4 {'eggs'} {'nuts', 'eggs'} 29
+35 11 {'eggs'} {'sesame', 'fish', 'eggs'} 13
+35 13 {'eggs'} {'sesame', 'eggs'} 7
+35 15 {'eggs'} {'fish', 'eggs'} 5
+35 17 {'eggs'} {'eggs', 'wheat'} 4
+35 21 {'eggs'} {'eggs', 'wheat'} 4
+35 26 {'eggs'} {'nuts', 'eggs', 'soy'} 4
+35 27 {'eggs'} {'fish', 'eggs'} 4
+35 28 {'eggs'} {'fish', 'eggs', 'soy'} 4
+35 31 {'eggs'} {'eggs', 'shellfish'} 3
+35 41 {'eggs'} {'fish', 'eggs'} 3
+35 46 {'eggs'} {'fish', 'eggs', 'shellfish'} 3
+38 5 {'shellfish'} {'sesame', 'shellfish', 'soy'} 19
+38 12 {'shellfish'} {'fish', 'shellfish'} 10
+38 16 {'shellfish'} {'shellfish'} 6
+38 18 {'shellfish'} {'sesame', 'fish', 'shellfish'} 5
+38 31 {'shellfish'} {'eggs', 'shellfish'} 3
+38 36 {'shellfish'} {'fish', 'nuts', 'shellfish'} 3
+38 37 {'shellfish'} {'shellfish', 'wheat'} 3
+38 43 {'shellfish'} {'shellfish'} 2
+38 44 {'shellfish'} {'shellfish'} 1
+REMOVE 1
+REMOVE  kmmqmv shellfish
+39 5 {'sesame'} {'sesame', 'soy'} 10
+39 8 {'sesame'} {'sesame', 'nuts'} 6
+39 11 {'sesame'} {'sesame', 'fish', 'eggs'} 4
+39 13 {'sesame'} {'sesame', 'eggs'} 4
+39 18 {'sesame'} {'sesame', 'fish'} 2
+39 30 {'sesame'} {'sesame', 'fish', 'nuts'} 2
+39 33 {'sesame'} {'sesame'} 2
+39 34 {'sesame'} {'sesame', 'soy'} 2
+39 40 {'sesame'} {'sesame', 'nuts'} 2
+39 45 {'sesame'} {'sesame'} 2
+42 4 {'nuts'} {'nuts', 'eggs'} 23
+42 8 {'nuts'} {'sesame', 'nuts'} 6
+42 14 {'nuts'} {'nuts', 'wheat'} 4
+42 19 {'nuts'} {'fish', 'nuts'} 4
+42 20 {'nuts'} {'nuts', 'wheat'} 4
+42 26 {'nuts'} {'nuts', 'eggs', 'soy'} 4
+42 30 {'nuts'} {'sesame', 'fish', 'nuts'} 4
+42 36 {'nuts'} {'fish', 'nuts'} 3
+42 40 {'nuts'} {'sesame', 'nuts'} 3
+45 5 {'sesame'} {'sesame', 'soy'} 15
+45 8 {'sesame'} {'sesame', 'nuts'} 4
+45 11 {'sesame'} {'sesame', 'fish', 'eggs'} 3
+45 13 {'sesame'} {'sesame', 'eggs'} 3
+45 18 {'sesame'} {'sesame', 'fish'} 2
+45 30 {'sesame'} {'sesame', 'fish', 'nuts'} 2
+45 33 {'sesame'} {'sesame'} 2
+45 34 {'sesame'} {'sesame', 'soy'} 2
+45 39 {'sesame'} {'sesame'} 2
+45 40 {'sesame'} {'sesame', 'nuts'} 2
+40
+1 6 {'fish'} {'fish'} 20
+1 10 {'fish'} {'fish', 'wheat'} 8
+1 11 {'fish'} {'sesame', 'fish', 'eggs'} 4
+1 12 {'fish'} {'fish'} 3
+1 15 {'fish'} {'fish', 'eggs'} 3
+1 18 {'fish'} {'sesame', 'fish'} 2
+1 19 {'fish'} {'fish', 'nuts'} 2
+1 27 {'fish'} {'fish', 'eggs'} 1
+REMOVE 1
+REMOVE  dgsdtj fish
+2 3 {'soy'} {'soy'} 24
+2 5 {'soy'} {'sesame', 'soy'} 7
+2 7 {'soy'} {'soy'} 5
+2 9 {'soy'} {'soy'} 4
+2 22 {'soy'} {'soy'} 3
+2 24 {'soy'} {'soy'} 2
+2 26 {'soy'} {'nuts', 'eggs', 'soy'} 2
+2 28 {'soy'} {'eggs', 'soy'} 2
+2 29 {'soy'} {'soy', 'wheat'} 2
+2 32 {'soy'} {'soy'} 2
+2 34 {'soy'} {'sesame', 'soy'} 2
+3 2 {'soy'} {'soy'} 24
+3 5 {'soy'} {'sesame', 'soy'} 7
+3 7 {'soy'} {'soy'} 5
+3 9 {'soy'} {'soy'} 4
+3 22 {'soy'} {'soy'} 3
+3 24 {'soy'} {'soy'} 2
+3 26 {'soy'} {'nuts', 'eggs', 'soy'} 2
+3 28 {'soy'} {'eggs', 'soy'} 2
+3 29 {'soy'} {'soy', 'wheat'} 2
+3 32 {'soy'} {'soy'} 2
+3 34 {'soy'} {'sesame', 'soy'} 2
+7 2 {'soy'} {'soy'} 22
+7 3 {'soy'} {'soy'} 10
+7 5 {'soy'} {'sesame', 'soy'} 5
+7 9 {'soy'} {'soy'} 4
+7 22 {'soy'} {'soy'} 3
+7 24 {'soy'} {'soy'} 2
+7 26 {'soy'} {'nuts', 'eggs', 'soy'} 2
+7 28 {'soy'} {'eggs', 'soy'} 2
+7 29 {'soy'} {'soy', 'wheat'} 2
+7 32 {'soy'} {'soy'} 2
+7 34 {'soy'} {'sesame', 'soy'} 2
+9 2 {'soy'} {'soy'} 18
+9 3 {'soy'} {'soy'} 10
+9 5 {'soy'} {'sesame', 'soy'} 5
+9 7 {'soy'} {'soy'} 4
+9 22 {'soy'} {'soy'} 3
+9 24 {'soy'} {'soy'} 2
+9 26 {'soy'} {'nuts', 'eggs', 'soy'} 2
+9 28 {'soy'} {'eggs', 'soy'} 2
+9 29 {'soy'} {'soy', 'wheat'} 2
+9 32 {'soy'} {'soy'} 2
+9 34 {'soy'} {'sesame', 'soy'} 2
+10 14 {'wheat'} {'nuts', 'wheat'} 24
+10 17 {'wheat'} {'eggs', 'wheat'} 8
+10 20 {'wheat'} {'nuts', 'wheat'} 5
+10 21 {'wheat'} {'eggs', 'wheat'} 4
+10 29 {'wheat'} {'soy', 'wheat'} 2
+10 37 {'wheat'} {'wheat'} 2
+15 4 {'eggs'} {'nuts', 'eggs'} 17
+15 11 {'eggs'} {'sesame', 'eggs'} 8
+15 13 {'eggs'} {'sesame', 'eggs'} 4
+15 17 {'eggs'} {'eggs', 'wheat'} 3
+15 21 {'eggs'} {'eggs', 'wheat'} 3
+15 26 {'eggs'} {'nuts', 'eggs', 'soy'} 3
+15 27 {'eggs'} {'eggs'} 3
+15 28 {'eggs'} {'eggs', 'soy'} 3
+15 31 {'eggs'} {'eggs'} 3
+15 35 {'eggs'} {'eggs'} 3
+15 41 {'eggs'} {'eggs'} 3
+15 46 {'eggs'} {'eggs'} 3
+18 5 {'sesame'} {'sesame', 'soy'} 13
+18 8 {'sesame'} {'sesame', 'nuts'} 3
+18 11 {'sesame'} {'sesame', 'eggs'} 1
+REMOVE 1
+REMOVE  bstzgn sesame
+19 4 {'nuts'} {'nuts', 'eggs'} 19
+19 8 {'nuts'} {'nuts'} 8
+19 14 {'nuts'} {'nuts', 'wheat'} 4
+19 20 {'nuts'} {'nuts', 'wheat'} 2
+19 26 {'nuts'} {'nuts', 'eggs', 'soy'} 2
+19 30 {'nuts'} {'nuts'} 2
+19 36 {'nuts'} {'nuts'} 1
+REMOVE 1
+REMOVE  kpksf nuts
+20 10 {'wheat'} {'wheat'} 13
+20 14 {'wheat'} {'wheat'} 10
+20 17 {'wheat'} {'eggs', 'wheat'} 4
+20 21 {'wheat'} {'eggs', 'wheat'} 3
+20 29 {'wheat'} {'soy', 'wheat'} 2
+20 37 {'wheat'} {'wheat'} 2
+22 2 {'soy'} {'soy'} 14
+22 3 {'soy'} {'soy'} 5
+22 5 {'soy'} {'soy'} 2
+22 7 {'soy'} {'soy'} 2
+22 9 {'soy'} {'soy'} 2
+22 24 {'soy'} {'soy'} 2
+22 26 {'soy'} {'eggs', 'soy'} 2
+22 28 {'soy'} {'eggs', 'soy'} 2
+22 29 {'soy'} {'soy', 'wheat'} 2
+22 32 {'soy'} {'soy'} 2
+22 34 {'soy'} {'soy'} 2
+24 2 {'soy'} {'soy'} 22
+24 3 {'soy'} {'soy'} 7
+24 5 {'soy'} {'soy'} 3
+24 7 {'soy'} {'soy'} 3
+24 9 {'soy'} {'soy'} 2
+24 22 {'soy'} {'soy'} 2
+24 26 {'soy'} {'eggs', 'soy'} 2
+24 28 {'soy'} {'eggs', 'soy'} 2
+24 29 {'soy'} {'soy', 'wheat'} 2
+24 32 {'soy'} {'soy'} 2
+24 34 {'soy'} {'soy'} 2
+27 4 {'eggs'} {'eggs'} 29
+27 11 {'eggs'} {'eggs'} 9
+27 13 {'eggs'} {'eggs'} 4
+27 15 {'eggs'} {'eggs'} 2
+27 17 {'eggs'} {'eggs', 'wheat'} 1
+REMOVE 1
+REMOVE  hn eggs
+28 2 {'soy'} {'soy'} 22
+28 3 {'soy'} {'soy'} 8
+28 5 {'soy'} {'soy'} 2
+28 7 {'soy'} {'soy'} 2
+28 9 {'soy'} {'soy'} 2
+28 22 {'soy'} {'soy'} 1
+REMOVE 1
+REMOVE  vkdxfj soy
+29 10 {'wheat'} {'wheat'} 18
+29 14 {'wheat'} {'wheat'} 7
+29 17 {'wheat'} {'wheat'} 1
+REMOVE 1
+REMOVE  bsfqgb wheat
+Summing
+2627
+eggs hn
+fish dgsdtj
+nuts kpksf
+peanuts sjcvsr
+sesame bstzgn
+shellfish kmmqmv
+soy vkdxfj
+wheat bsfqgb
+hn,dgsdtj,kpksf,sjcvsr,bstzgn,kmmqmv,vkdxfj,bsfqgb,
+{'fish', 'nuts', 'peanuts', 'sesame', 'eggs', 'shellfish', 'wheat', 'soy'}
